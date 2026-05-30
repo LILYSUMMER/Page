@@ -7,24 +7,15 @@
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
-
-  <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
-
   <title>ArtWork</title>
-
   <link href="./main.3f6952e4.css" rel="stylesheet">
-  <style>
-    .img-responsive { display: block; margin: 0 auto; }
-    .text-center { text-align: center; }
-  </style>
 </head>
 
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<body class="">
 <div id="site-border-left"></div>
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
@@ -32,13 +23,12 @@
 <header>
   <nav class="navbar navbar-fixed-top navbar-default">
     <div class="container">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="./index.html" title="">01 : Home</a></li>
@@ -54,11 +44,14 @@
 <div class="section-container">
   <div class="container">
     <div class="row">
+
+      <!-- ── 상단 미디어 ── -->
       <div class="col-xs-12">
-        <img src="./assets/images/1project5-1.jpg" class="img-responsive" alt="">
+        <img src="/images/works/epispace-hero.jpg" class="img-responsive" alt="epispace : Seogwipo AR"
+             style="width:100%; object-fit:cover; min-height:300px; background:#1a1a1a;">
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2" data-i18n="work5.title">005 : 언어의 불 명확성</h1>
+            <h1 class="h2">epispace : Seogwipo AR</h1>
           </div>
         </div>
       </div>
@@ -66,28 +59,33 @@
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <img src="./assets/images/project4-4.jpg" class="img-responsive" alt="">
+            <img src="/images/works/epispace-01.jpg" class="img-responsive" alt=""
+                 style="background:#2a2a2a; min-height:200px;">
           </div>
           <div class="col-xs-12 col-md-6">
-            <img src="./assets/images/project4-5.jpg" class="img-responsive" alt="">
+            <img src="/images/works/epispace-02.jpg" class="img-responsive" alt=""
+                 style="background:#2a2a2a; min-height:200px;">
           </div>
         </div>
       </div>
 
-      <div class="col-xs-12 text-center">
-        <p style="font-size:16px;" data-i18n-html="work5.subtitle"></p>
-        <p style="font-size:16px;" data-i18n-html="work5.statement"></p>
-        <div style="text-align: center; padding:10px;">
-          <img src="./assets/images/0project5-2.jpg" class="img-responsive" alt="">
+      <!-- ── 텍스트 설명 ── -->
+      <div class="col-xs-12">
+        <p style="font-size:16px;" data-i18n-html="epispace.meta"></p>
+
+        <!-- ── 하단 미디어 ── -->
+        <div style="background:#111; width:100%; height:480px; display:flex; align-items:center; justify-content:center; margin:20px 0;">
+          <span style="color:#555; font-size:14px; letter-spacing:2px;">VIDEO PLACEHOLDER</span>
         </div>
-        <p style="font-size:16px; text-align: center;" data-i18n-html="work5.artwork1"></p>
-        <div style="text-align: center; padding:10px;">
-          <img src="./assets/images/1project5-3.jpg" class="img-responsive" alt="">
-          <img src="./assets/images/1project5-4.jpg" class="img-responsive" alt="">
-          <img src="./assets/images/1project5-5.jpg" class="img-responsive" alt="">
-        </div>
-        <p style="font-size:16px; text-align: center;" data-i18n-html="work5.artwork2"></p>
+
+        <img src="/images/works/epispace-03.jpg" class="img-responsive" alt=""
+             style="background:#2a2a2a; min-height:300px; width:100%; margin-top:20px;">
+        <br><br>
+        <img src="/images/works/epispace-04.jpg" class="img-responsive" alt=""
+             style="background:#2a2a2a; min-height:300px; width:100%;">
+        <br><br>
       </div>
+
     </div>
   </div>
 </div>
@@ -104,7 +102,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
-    navActivePage();
+     navActivePage();
   });
 </script>
 
@@ -112,4 +110,5 @@
 <script type="text/javascript" src="./assets/i18n.js"></script>
 <script type="text/javascript" src="./main.70a66962.js"></script>
 </body>
+
 </html>
