@@ -2,12 +2,20 @@ window.TRANSLATIONS = {
   ko: {
 
     /* ── CV ──────────────────────────────────────────── */
+    'cv.bio': `혼합현실과 수면, 반사를 다루는 미디어 아티스트. 밴쿠버 / 제주. 에피스페이스 창립, 윤수련.`,
+
     'cv.education': `서강대학교 아트&amp;테크놀로지 예술공학석사 2021.09 ~ 2023.08<br>
 성신여자대학교 조소과 예술학사 2012.02 ~ 2018.02<br>
 한국전파진흥협회 XR 그래픽 아티스트 수료 2021.04 ~ 2021.08<br>
 메디치 교육센터 VR/AR/MR 융합콘텐츠 개발자 과정 수료 2020.05 ~ 2020.11`,
 
-    'cv.awards': `플루리포텐트아트스페이스 윤수련 개인전 『Find your wave』 2023.10.3~10.10<br>
+    'cv.awards': `2027 「미반사체 — 웅디」 혼합현실 설치 (in progress), 제주<br>
+2026 「WOONGDEE: Still Here, Unreflected」 AI 애니메이션 단편, 4'20", 감독 윤수련 — 해외 영화제 출품 중<br>
+2026– Gitxsan VR 교육 프로젝트, BC, Canada<br>
+2025.10 제64회 탐라문화제 특별전 「자연과 신성(Nature and Divinity)」 참여작가(팀 스톤콜렉티브), 언노운무브먼트스튜디오, 제주 — 제주특별자치도·UNITAR 제주국제연수센터·유네스코<br>
+2025 에피스페이스 이중섭거리 WebAR 투어 기획·개발·운영, 윤수련 — 제주 예비관광벤처 선정<br>
+2024.09 《PRPT: Vault Service》 단체전, 서울 (주최 (주)예술고래상회, 주관 오아에이전시)<br>
+플루리포텐트아트스페이스 윤수련 개인전 『Find your wave』 2023.10.3~10.10<br>
 한국문화예술위원회 2022년 메타버스 예술활동 ① 실험 창작 『Hotel Meta』 2022.7~2022.12<br>
 문화재청 제1회디지털문화유산콘텐츠경진대회 일반부 특별상 『VR문화유산 답사기: 3D문화유산 스캔데이터를 활용한 1인칭 VR 미션게임』 2022.6<br>
 한국문화예술위원회 2021년 예술과기술융합지원 유형1. 아이디어 기획·구현 『불투명한 시선』 2021.7~2021.12<br>
@@ -32,6 +40,13 @@ ETRI 시각-청각 변환기술 적용 시나리오 분석 및 형상화 연구�
 <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11229877" target="_blank">버추얼 프로덕션 (Virtual Production)을 활용한 퍼포먼스 영상 작품 제작 연구: 댄스필름 'Not at Home' 제작 사례를 중심으로<br>Adopting Virtual Production for Performance Film-making : A Case Study of a Dance Film 'Not at Home' 2023<br></a>
 <b>HCI 학술대회 [창의상]</b><br>
 <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11043938" target="_blank">VR 기반 미디어 아트 '불투명한 시선' 전시 사례를 중심으로 본 서로의 거리감에 대한 고찰<br>The sense of distance from each other through the case of VR-based media art exhibition 'Opaque Gaze' 2022</a>`,
+
+    /* ── work_woongdee / work_unreflected ─────────────── */
+    'work_woongdee.credit': `2026 · AI 애니메이션 단편 · 4'20" · 무대사<br>감독 윤수련 · 제작 Epispace`,
+    'work_woongdee.synopsis': `방향을 잃은 사람이 비 오는 도시의 웅덩이에서, 카메라를 통해서만 보이는 빛 ‘웅디’를 만난다. 웅디는 제주 바다에서 수증기로 건너온 존재로, 사람들이 잊고 간 것들을 수면 아래에서 지키며 주인을 기다린다. 잃어버린 풍선을 아이에게 돌려주는 웅디를 따라가며 그는 자신이 사랑했던 것—스쳐 가는 빛을 붙잡는 기쁨—을 다시 떠올리고, 웅디는 더 이상 필요 없어진 순간 조용히 옅어진다.`,
+    'work_woongdee.note': `제작 노트: 생성형 AI는 창작자가 주도하는 보조 도구로 사용했다. 세계관·구성·연출·편집은 작가 윤수련.`,
+    'work_unreflected.line': `수면 위에서만 만나는 혼합현실 설치 — 1부 비자림 현장 작업(2027.7), 2부 제주 전시(2027.10)`,
+    'work_unreflected.body': `사라진 것이 아니라, 아직 비치지 않은 것이다. 밴쿠버 169.5일의 비와 비자림, 두 수면에서 정체성을 시험한다.<br><br>웅덩이는 다섯이다. 바다, 도시, 숲, 사람, 거울. 휴대폰 WebAR로 수면을 비추면 웅디가 보인다. 물건을 건져 앞사람의 문장을 읽고 돌려보낸 뒤, 마지막 거울 웅덩이에서 자기 얼굴을 보고 한 문장을 남긴다.<br><br>기술은 도구가 아니라 제약이다. 웅디는 카메라를 통해서만 보이고, 화면을 내리면 사라진다.`,
 
     /* ── work1 : Opaque Gaze ──────────────────────────── */
     'work1.meta': `<b>개발기간:</b> 2021.7.20 ~ 2021.11.6 (110일)<br>
@@ -202,7 +217,7 @@ VR Hand Tracking 기술을 적용하여 컨트롤러 없이도 손의 움직임�
 <b>개발환경:</b> Augmented Reality (AR) / Mobile Platform / LBS (Location-Based Service)<br>
 <b>주요 역할:</b> 에피스페이스 창업, AR 콘텐츠 기획 및 기술 개발 총괄<br>
 <b>기여도:</b> Founder &amp; Tech Lead (100%)<br>
-<b>제작동기:</b> '에피스페이스(epispace)' 창업 후 제주 서귀포 이중섭거리의 역사적, 문화적 서사를 증강현실(AR)로 시각화한 프로젝트이다. 공간에 겹겹이 쌓인 지역의 이야기(레이어)를 수집하여 관광객들이 AR을 통해 실감나게 체험할 수 있도록 디지털 콘텐츠로 구축했다. 이 프로젝트의 혁신성과 지역 상생 가치를 인정받아 '예비관광벤처'에 선정되었으며, '서귀포 스타트업베이' 입주기업으로 발탁되어 성공적인 사업화 및 기술 고도화를 이뤄냈다. 예술적 리서치가 실제 대중을 위한 상호작용 가능한 아카이브로 확장된 주요 사례이다.`,
+<b>제작동기:</b> 제주 서귀포 이중섭거리의 위치 기반 스토리 트레일이다. 방문객이 NFC 태그를 탭하면 앱 설치 없이 브라우저에서 지역의 숨은 이야기가 열린다. 지역 파트너 매장과 함께 유료 현장 체험으로 운영했다. 2025년 한국관광공사 예비관광벤처에 선정되었고, NFC 기반 AR 콘텐츠 시스템은 특허 출원 중이다. 서귀포 스타트업베이 입주기업으로도 선정되었다.`,
 
     /* ── work_prpt ───────────────────────────────────── */
     'prpt.meta': `<b>개발기간:</b> 2024.08.01 ~ 2024.11.30<br>
@@ -233,12 +248,20 @@ VR Hand Tracking 기술을 적용하여 컨트롤러 없이도 손의 움직임�
   en: {
 
     /* ── CV ──────────────────────────────────────────── */
+    'cv.bio': `Media artist working with mixed reality, water surfaces and reflection. Based in Vancouver / Jeju. Founder of Epispace.`,
+
     'cv.education': `Sogang University, M.Eng. in Art &amp; Technology 2021.09 ~ 2023.08<br>
 Sungshin Women's University, B.F.A. in Sculpture 2012.02 ~ 2018.02<br>
 Korea Radio Promotion Association, XR Graphic Artist Certificate 2021.04 ~ 2021.08<br>
 Medici Education Center, VR/AR/MR Convergent Content Developer Program 2020.05 ~ 2020.11`,
 
-    'cv.awards': `Pluripotent Art Space, Solo Exhibition 『Find your wave』 2023.10.3~10.10<br>
+    'cv.awards': `2027 「The Unreflected — Woongdee」 mixed-reality installation (in progress), Jeju. Sooryun Yoon<br>
+2026 「WOONGDEE: Still Here, Unreflected」 AI animation short, 4'20", directed by Sooryun Yoon — international festival submissions in progress<br>
+2026– Gitxsan VR education project, BC, Canada<br>
+2025.10 64th Tamna Cultural Festival, special exhibition 「Nature and Divinity」, participating artist (Team Stone Collective), Unknown Movement Studio, Jeju — Jeju Special Self-Governing Province, UNITAR Jeju International Training Center, UNESCO<br>
+2025 Epispace, Lee Jung-seop Street WebAR tour: planning, development, and operation by Sooryun Yoon — selected as a Jeju Preliminary Tourism Venture<br>
+2024.09 Group exhibition 《PRPT: Vault Service》, Seoul (hosted by Art Gorae Sanghoe Co., Ltd., organized by OA Agency)<br>
+Pluripotent Art Space, Solo Exhibition 『Find your wave』 2023.10.3~10.10<br>
 Arts Council Korea, 2022 Metaverse Art Activity ① Experimental Creation 『Hotel Meta』 2022.7~2022.12<br>
 Cultural Heritage Administration, 1st Digital Cultural Heritage Content Competition, Special Award (General Division) 『VR Cultural Heritage Field Trip: A First-Person VR Mission Game Using 3D Cultural Heritage Scan Data』 2022.6<br>
 Arts Council Korea, 2021 Art &amp; Technology Convergence Support, Type 1: Idea Planning &amp; Implementation 『Opaque Gaze』 2021.7~2021.12<br>
@@ -264,6 +287,13 @@ ETRI, Research Assistant — Scenario Analysis and Visualization for Visual-to-A
 <b>HCI Academic Society [Creative Award]</b><br>
 <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11043938" target="_blank">The Sense of Distance from Each Other through the Case of VR-based Media Art Exhibition 'Opaque Gaze' 2022</a>`,
 
+    /* ── work_woongdee / work_unreflected ─────────────── */
+    'work_woongdee.credit': `2026 · AI animation short · 4'20" · no dialogue<br>Directed by Sooryun Yoon · Produced by Epispace`,
+    'work_woongdee.synopsis': `A person who has lost their way meets Woongdee, a light visible only through the camera, in a puddle in a rainy city. Woongdee crossed from the sea of Jeju as vapor, keeps under the surface the things people left behind, and waits for their owners. Following Woongdee as it returns a lost balloon to a child, he remembers what he loved — the joy of catching a light as it passes — and in the moment it is no longer needed, Woongdee quietly thins away.`,
+    'work_woongdee.note': `Production note: generative AI is used as an aid the maker directs. The world, structure, direction, and edit are the artist’s, Sooryun Yoon.`,
+    'work_unreflected.line': `A mixed-reality installation met only on the water’s surface — part 1, Bijarim fieldwork (July 2027); part 2, a Jeju exhibition (October 2027).`,
+    'work_unreflected.body': `Not gone — not yet reflected. The work tests identity on two surfaces: 169.5 days of rain in Vancouver, and Bijarim.<br><br>Five puddles: sea, city, forest, person, mirror. Point a phone’s WebAR at the water and Woongdee appears. Lift an object, read the sentence left by the person ahead, and send it on. At the last puddle, the mirror, you see your own face and leave one sentence.<br><br>The technology is a constraint, not a tool. Woongdee is visible only through the camera, and disappears when the screen is lowered.`,
+
     /* ── work1 : Opaque Gaze ──────────────────────────── */
     'work1.meta': `<b>Development Period:</b> 2021.7.20 ~ 2021.11.6 (110 days)<br>
 <b>Environment:</b> Unity URP / GitHub / Oculus Quest2<br>
@@ -276,11 +306,11 @@ As visitors wander through the space, physical distances naturally expand and co
 Konno Yuki<br><br>
 Physical distance and perceived distance are fundamentally different things. While the two are sometimes closely related, there are also cases where they bear no connection to each other. For instance, there are people with whom we feel an emotional distance even when standing side by side, while there are others who feel connected at heart despite being far apart. In either case, if one were to measure the physical distance between people and arrive at a formula stating that a distance of such-and-such meters produces a sense of disconnection, the result would reflect nothing about either the distance or the perceived distance — let alone their relationship. Conversely, a close relationship can sustain itself even across physical distance. Perceived distance is not determined by one's current physical location. To put it differently, it is derived from memory, bodily sensation, cognitive capacity, and personal disposition — all of which underlie the present moment. The perceived distance that emerges from this synthesis of judgments makes it difficult to define even the criteria for closeness and remoteness.<br><br>
 How, then, is perceived distance recognized? It is first experienced spatially. For example, when we meet someone at a distance of 10 meters, we feel that distance through the gap between us. But if they were strangers to us, we would feel no sense of distance at all. On the other hand, even if they lived in another country, if they were once close to us, the heart would feel no distance. Furthermore, spatial experience is layered with temporal experience. Like scenes that almost but not quite match in memory, perceived distance is that strange relationship between things occupying different positions in time and space. Physical distance and perceived distance are different things — more precisely, both are grounded in difference. Yet while both lie between here and there, what distinguishes them is whether or not they can be measured. The perceived distance that arises in relationships that are close yet different, in scenes that feel familiar yet are not of this place — such perceived distance cannot be derived from quantified and measured physical distance.<br><br>
-VR should be understood as a medium through which both perceived distance and physical distance are experienced. It is not a means by which our perception is controlled and subordinated. In SooRyun Yoon's solo exhibition <em>Opaque Gaze</em>, the viewer and the other communicate through the HMD (Head Mounted Display) device. In a space visually identical to the actual exhibition hall, viewers see adjectives and verbs that appear according to physical proximity. These words give language to the sensations humans feel around perceived distance, and users select from them to construct sentences. Based on an algorithm, the distance between the viewer and the other is described through changes in language and color, prompting the user to become aware of perceived distance. Yet what unfolds in this small virtual space reveals how immeasurable and unfathomable the recognition of perceived distance truly is.<br><br>
+VR should be understood as a medium through which both perceived distance and physical distance are experienced. It is not a means by which our perception is controlled and subordinated. In Sooryun Yoon's solo exhibition <em>Opaque Gaze</em>, the viewer and the other communicate through the HMD (Head Mounted Display) device. In a space visually identical to the actual exhibition hall, viewers see adjectives and verbs that appear according to physical proximity. These words give language to the sensations humans feel around perceived distance, and users select from them to construct sentences. Based on an algorithm, the distance between the viewer and the other is described through changes in language and color, prompting the user to become aware of perceived distance. Yet what unfolds in this small virtual space reveals how immeasurable and unfathomable the recognition of perceived distance truly is.<br><br>
 In this sense, the HMD device does not provide us with a transparent gaze. Perceived distance is, rather, a difference maintained by receded information — position, who someone is, the gap of time. In this exhibition, instead of proving perceived distance through technology, the artist touches on that very 'measurable standard' — through an inexplicable sensation.<br><br>`,
 
     'work1.note': `<b>Exhibition Note<br><br></b>
-SooRyun Yoon<br><br>
+Sooryun Yoon<br><br>
 Because the distance between myself and the other cannot exist on the same plane, a gap inevitably opens between us. This gap makes it impossible for us to have a transparent relationship with each other.<br><br>
 Is what I see through my own gaze truly the entirety of the subject? Can we look at the other transparently?<br><br>
 Every gaze is opaque. I was curious about what might lie beyond this opaque gaze.<br><br>
@@ -323,7 +353,7 @@ This project won an Encouragement Award at the 2020 Gyeonggi VR/AR Hackathon.`,
     'work4.subtitle': `Things That Cannot Be Understood, plant leaves, variable installation, 2018`,
 
     'work4.statement': `<b>On Things That Cannot Be Understood.</b><br>
-I have often thought that even when people speak the same language, genuine communication does not always occur. Where does this failure of communication originate? When different people define the same word differently, the same utterance carries different meanings. The definition of a word continuously shifts within its context, and we must read that context to grasp the word's meaning. If this contextual understanding is not established first, words become indistinct characters. These indistinct characters manifest in various forms of work. Fragile plant leaves, so delicate they might crumble at a touch, have various words inscribed upon them. The appearance of letters carved into plant leaves resembles the state in which the context a language carries has disappeared. Words installed in isolation are not easily understood in terms of what the sentence might mean. As time passes and the plant leaves gradually wither, the form of the inscribed letters becomes distorted — some leaves have burned and remain as ash. The black ash, too, loses all trace of what it once was. Within this continuously vanishing context, words are scattered as fragments here and there. ■ SooRyun Yoon`,
+I have often thought that even when people speak the same language, genuine communication does not always occur. Where does this failure of communication originate? When different people define the same word differently, the same utterance carries different meanings. The definition of a word continuously shifts within its context, and we must read that context to grasp the word's meaning. If this contextual understanding is not established first, words become indistinct characters. These indistinct characters manifest in various forms of work. Fragile plant leaves, so delicate they might crumble at a touch, have various words inscribed upon them. The appearance of letters carved into plant leaves resembles the state in which the context a language carries has disappeared. Words installed in isolation are not easily understood in terms of what the sentence might mean. As time passes and the plant leaves gradually wither, the form of the inscribed letters becomes distorted — some leaves have burned and remain as ash. The black ash, too, loses all trace of what it once was. Within this continuously vanishing context, words are scattered as fragments here and there. ■ Sooryun Yoon`,
 
     'work4.installation': `Installation View`,
     'work4.video_caption': `When Do You Think Plants Die?, single-channel video, 00:03:47, 2018`,
@@ -429,7 +459,7 @@ The work places the 'face' — the most direct medium through which human existe
 <b>Environment:</b> Augmented Reality (AR) / Mobile Platform / LBS (Location-Based Service)<br>
 <b>Role:</b> Founded epispace; overall AR content planning and technology development lead<br>
 <b>Contribution:</b> Founder &amp; Tech Lead (100%)<br>
-<b>Motivation:</b> Following the founding of 'epispace,' this project visualizes the historical and cultural narratives of Seogwipo's Yi Jung-seop Street in Jeju through augmented reality. The layered local stories embedded in the space were collected and built into digital content so that tourists can experience them vividly through AR. Recognized for its innovation and community value, the project was selected as a 'Pre-tourism Venture' and accepted as a resident company at 'Seogwipo Startup Bay,' achieving successful commercialization and technological advancement. It stands as a key example of artistic research expanding into an interactive archive accessible to the general public.`,
+<b>Motivation:</b> A location-based story trail on Lee Jung-seop Street, Jeju. Visitors tap an NFC tag and a hidden local story opens in the browser — no app install. Ran as a paid on-site experience with local partner stores. Selected by the Korea Tourism Organization (Preliminary Tourism Venture, 2025). NFC-based AR content system, patent pending. Also a resident company at Seogwipo Startup Bay.`,
 
     /* ── work_prpt ───────────────────────────────────── */
     'prpt.meta': `<b>Development Period:</b> 2024.08.01 ~ 2024.11.30<br>
